@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+*{
+    margin:0%;
+    list-style: none;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*NAVBAR*/
+
+.containerLogo{
+    width: 5%;
+    height: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.containerLogo img{
+    width: 100%;
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.containerNavbar{
+    background-color: rgb(196, 195, 195);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.navBarre{
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBarre li{
+    padding: 0% 10%;
 }
+
+h1{
+    color: coral;
+    font-size:xx-large;
+}
+
+.user{
+   font-weight: 900;
+}
+
+/*A LA UNE*/
+
+.titreALaUne{
+    color: rgb(43, 173, 173);
+    text-align: center;
+    padding: 3% 0%;
+    text-decoration: underline;
+    position: relative;
+}
+.containerALaUne{
+    text-align: center;
+}
+
+/*PROFILE*/
+
+.userProfil{
+    text-align: center;
+    font-size:large;
+
+}
+.containerProfile{
+width: 20%;
+height: 50%;
+position: absolute;
+left: 1%;
+top: 15%;
+background-color: rgb(43, 173, 173);
+padding: 2%;
+box-shadow: 10px 5px 5px coral;
+}
+
+.containerProfile .userList li{
+    padding: 5%;
+}
+
+
+/*NOS RECETTES*/
+
+.titreRecettes{
+    color: rgb(43, 173, 173);
+    text-align: center;
+    padding: 2% 0%;
+    text-decoration: underline;
+}
+
+.containerRecettes{
+    text-align: center;
+}
+
+.listeRecette{
+    padding: 1% 0%;
+}
+
+.imgBoissons{
+    width: 20%;
+    height: 20%;
+    object-position: 50%;
+}
+
+.imgBoissons img{
+    width: 100%;
+    height: 100%;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(196, 195, 195);
+    padding: 2%;
+}
+
+.containerImgFooter{
+    width: 10%;
+    height: 10%;
+}
+
+.containerImgFooter img{
+    width: 100%;
+    height: 100%;
+}
+
+.listeHoraireFooter{
+    border-left: 2px solid black;
+    padding:0% 13%;}
